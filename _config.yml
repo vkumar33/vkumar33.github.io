@@ -1,12 +1,1 @@
-url: https://vkumar33.github.io
-
-# Site settings
-title: Vikas Kumar
-email: vkumar33@uic.edu
-description: "CS424"
-
-
-
-# Build settings
-markdown: kramdown
-permalink: pretty
+theme: agency-jekyll-theme

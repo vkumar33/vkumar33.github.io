@@ -51,18 +51,37 @@ layout: default
     <p></p>
 
     <center><h3> Tools Used </h3></center>
-    <p> deck.gl, Mapbox GL
+    <p> deck.gl, Mapbox GL</p>
     <p></p>
     <img src="./mapbox.gif" />
     <p></p>
     
-    <center><h3> Improvements </h3></center>
-    <p>Maybe change the background layout and add some versatility.
+    <center><h1> Visualization Critique </h1></center>
+    <p></p>
+    <center><h3> Data Visualization for global Flights </h3></center>
+    <p>Nowadays, we are used to reviewing items in a list view. We constantly scroll the list to gain more information, because the items that can be displayed on one screen are limited. In this traditional way of reading, we receive information in a predetermined order, from left to right and top to bottom.
 
+    However, map visualization is another way to organize information. We simultaneously perceive simple visual symbols in one space and grasp general information more effectively.
+
+    In Escape, we chose the color-coded circle to present the flight price for the city. It’s a linear scale from green to red. Green represents the cheapest, red represents the most expensive. We assume, in the context of most cultures, green indicates ‘affordable’ and ‘safe to go’, while red implies ‘alert’ or ‘beyond the budget’.
+    </p>
+    <img src="./vc3.png" />
+    <p></p>
+    <p>
+    But why not size? Why we didn’t use circle radius to represent price? Because our perception of size is against our attention to price. While expecting to focus on cheaper cities, nevertheless we naturally pay more attention to the bigger circle and are used to assuming that bigger circle represents a larger number.
+    Another reason is more practical.
+    The circle can’t be too big because it would cover up everything; It can’t be too small either, because it’d be hardly aware of.
+    However, the global price range could be S$70 to S$9800. In this case, the difference in size is much less noticeable than color.
+    </p>
     <p></p>
 
-
-
+    <center><h3> Beyond the color: symbolizing stops </h3></center>
+    <p>After deciding to use color as the most important visual element, I tried to incorporate the information of the stops.
+    I used the solid circle to represent the non-stop, and a circle with an extra outline to indicate 1 or more than 1 stop.</p>
+    <img src="./vc4.png" />
+    <p></p>
+    <img src="./vc5.png" />
+    <p></p>
 
     <h3>References</h3>
     <p>1.<a href = "https://flowingdata.com/2019/03/28/mapping-the-cheapest-flights-to-everywhere-given-your-location/">Flowing Data Website</a></p>

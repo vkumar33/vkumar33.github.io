@@ -18,25 +18,42 @@ layout: default
     <hr />
 
 </p>
-    <img src="./vc1.png" /> 
+    <img src="./vc1.gif" /> 
     <hr />
 
     <center><h3>About the project</h3></center>
-    <p>Sometimes you really do need to get away. Escape, part search engine and part research project from students at the MIT Senseable City Laboratory in Singapore, shows you the cheapest flights out of any given city. Just put in a location, and you get color-coded connections to everywhere around the world.</p>
+    <p>Sometimes you really do need to get away. Escape, part search engine and part research project from students at the MIT Senseable City Laboratory in Singapore, shows you the cheapest flights out of any given city. Just put in a location, and you get color-coded connections to everywhere around the world.
+
+    This tool helps you to picture the price landscape whenever you felt like taking a holiday. With so many destinations in South East Asia, a map-based approach that can help in exploring the destinations in a fun and intuitive way.
+
+    The tools gets live prices of the cheapest return flight to each and every city in the world from where you live. It allows you to filter by visa, weather, price, region, direct/indirect to help you narrow down the options. By clicking on a city you can get the entire list of flights to the city.</p>
     <p></p>
 
     <center><h3> Purpose </h3></center>
-    <p>Anyone looking for going to holiday in a new place can benefit from this.
+    <p>This started with a simple question: which city is the cheapest.
+    But through user interviews, instead of cheapest, in fact, we are more concerned about affordability, and whether this place is worth my money.
+
+    For instance, from Singapore to Kuala Lumpur, I only want to pay up to 80 Singapore dollars (normally less than S$80), but I am willing to pay S$350 to Bali (normally less than S$170). Because I have always wanted to go to the beach in Bali, but I have little interest in Kuala Lumpur.
+
+    One thing we were pretty sure in the beginning is to plot the prices on the map. It’s not only because this is a travel product, but also because of a design decision in terms of data visualization.</p>
     <p></p>
 
-    <center><h3> Who benefits from this </h3></center>
-    <p>People planning holidays.
+    <center><h3> Data Used </h3></center>
+    <p>The data is retrieved using Skyscanner API and Kiwi API.  If you want to know more about them then kindly read their respective documentations.
+
+    <p><a href = "https://partners.skyscanner.net/about">Skyscanner Api</a></p>
+    <img src="./skyscanner.png" />
+    <p></p>
+    <p><a href = "https://docs.kiwi.com/">Kiwi Api</a></p>
+    <img src="./kiwi.png" />
+    <p></p>
+    </p>
     <p></p>
 
-    <center><h3> How can they use it </h3></center>
-    <p>Select the budget, popularity, weather and then the site automatically tells them
+    <center><h3> Tools Used </h3></center>
+    <p> deck.gl, Mapbox GL
     <p></p>
-    <img src="./vc2.png" />
+    <img src="./mapbox.gif" />
     <p></p>
     
     <center><h3> Improvements </h3></center>
@@ -44,8 +61,17 @@ layout: default
 
     <p></p>
 
-       <h3>References</h3>
-    <p><a href = "https://flowingdata.com/2019/03/28/mapping-the-cheapest-flights-to-everywhere-given-your-location/">Flowing Data Website</a></p>
+
+
+
+    <h3>References</h3>
+    <p>1.<a href = "https://flowingdata.com/2019/03/28/mapping-the-cheapest-flights-to-everywhere-given-your-location/">Flowing Data Website</a></p>
+
+    <p>2.<a href = "https://medium.com/greatescapeco/behind-of-the-scenes-look-at-the-design-of-visualizing-flight-data-for-escape-312ce49344bb">Behind the Scenes</a></p>
+
+    <p>3.<a href = "https://medium.com/greatescapeco/visualizing-flight-legs-using-react-mapbox-and-deck-gl-18e22771d53e">Visualizing using Mapbox</a></p>
+
+    <p>4.<a href = "https://medium.com/greatescapeco/we-created-a-visualization-tool-for-cheapest-flights-in-the-world-4408f1b9e413">Great Escape visualization tools</a></p>
 
   </body>
 
